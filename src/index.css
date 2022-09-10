@@ -4,6 +4,9 @@
 
 html {
   font-family: sans-serif;
+  color: black;
+  /* background: url(../public/logo512.png); */
+  background-color: black;
 }
 
 body {
