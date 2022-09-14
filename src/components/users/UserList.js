@@ -6,7 +6,7 @@ import ErrorModal from "../ui/ErrorModal";
 const UserList = (props) => {
   return (
     <div>
-      <ErrorModal title="An error occured!" message="Something went wrong"/>
+      {/* <ErrorModal title="An error occured!" message="Something went wrong"/> */}
       <Card className={styles.users}>
         <ul className={styles.users["ul"]}>
           {props.users.map((user) => (
